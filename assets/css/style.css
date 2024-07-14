@@ -1,0 +1,25 @@
+body {
+    background: gray;
+}
+
+body h1 {
+    background: blue;
+    text-align: right;
+}
+
+.search-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#search-button {
+    background: blue;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border: 5px;
+    border-radius: 10px;
+
+}
