@@ -23,7 +23,12 @@ body h1 {
     border-radius: 10px;
 
 }
-#weatherResults {
+#currentWeather {
+    border: 1px solid black;
+    display: flex;
+}
+
+#weatherForecast {
     border: 1px solid black;
     display: flex;
 }
