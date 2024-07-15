@@ -3,7 +3,6 @@ const API_KEY = "2bad7e955739134814dad27056a97e1a";
 // Function to fetch current weather
 function fetchCurrentWeather(city) {
     const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
-
     fetch(currentWeatherUrl)
         .then(response => {
             if (!response.ok) {
